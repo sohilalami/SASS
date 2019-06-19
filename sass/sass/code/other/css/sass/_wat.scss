@@ -1,0 +1,49 @@
+.wat {
+    padding-bottom: 100px;
+    .wat__flex {
+        display: flex;
+        flex-direction: column;
+        .wat__flex__title {
+            text-align: center;
+            color: #0073cf
+        }
+        .wat__flex__tekst {
+            text-align: center;
+            padding: 20px;
+        }
+    }
+    .wat__flex2 {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        .wat__flex2__btn {
+            border-radius: 5px;
+            padding: 15px 25px;
+            font-size: 22px;
+            text-decoration: none;
+            margin: 20px;
+            color: #fff;
+            position: relative;
+            display: inline-block;
+            background-color: #0073cf;
+            width: 600px;
+            padding-right: 0;
+            margin-right: 0;
+            cursor: pointer;
+        }
+        .wat__flex2__link {
+            text-decoration: none;
+            color: #0073CF;
+            margin-left: 170px;
+            &:hover{
+                color: #98D5D0;
+            }
+        }
+    }
+    .wat__img {
+        width: 239px;
+        height: 108px;
+        float: right;
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,30 @@
+footer {
+    background-color: $hoofdkleur;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.footer__left{
+    width: 50%;
+    margin: 0;
+}
+.footer__right{
+    float: right;
+    .footer__right__links{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+    .footer__right__a{
+        padding-right: 15px;
+        text-decoration: none;
+        color: #fff;
+        &:hover{
+            color: $hoofdkleur25;
+        }
+    }
+}
+.footer__credit{
+    width: 50%;
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+.contact__flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 900px;
+}
+
+.contact__btn{
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-color: $hoofdkleur50;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.contact__right{
+    float: right;
+}
+
+.contact__phone{
+    float: right;
+}

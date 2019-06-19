@@ -1,0 +1,35 @@
+.ipad {
+    background-color: #88c0e4;
+    display: flex;
+    flex-direction: row;
+    .ipad__links__title {
+        text-align: center;
+    }
+    .ipad__links__img {
+        float: right;
+        padding-top: 0px;
+    }
+    .ipad__links__p {
+        text-align: center;
+        margin-left: 20px;
+        padding-top: 15px;
+    }
+    .ipad__container-btn {
+        margin-left: 80px;
+    }
+    .ipad__links__btn {
+        border-radius: 5px;
+        padding: 15px 25px;
+        font-size: 22px;
+        text-decoration: none;
+        margin: 20px;
+        color: #fff;
+        position: relative;
+        display: inline-block;
+        background-color: $hoofdkleur;
+        cursor: pointer;
+    }
+    .ipad__rechts {
+        float: right;
+    }
+}
